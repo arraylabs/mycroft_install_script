@@ -1,6 +1,6 @@
 # Install Script
 
-This is an install script that will install Mycroft via the git installation method, create the systemd script, install Pulseaudio as a system wide service and optionally install Spotifyd (arm version), the Finished Booting skill and the Respeaker Mic Array v2.0 Pixel Ring skill. **Note: If you choose not to install Mimic locally or have speaker issues after reboot you may have to use the ```mycroft-cli-client``` command to view the pairing code**
+This is an install script that will install Mycroft via the git installation method, create the systemd script, install Pulseaudio as a system wide service and optionally install Spotifyd (arm version), the Finished Booting skill and the Respeaker Mic Array v2.0 Pixel Ring skill. **Note: If you choose not to install Mimic locally or have speaker issues after reboot you may have to use the ```mycroft-cli-client``` command to view the pairing code**.
 
 ## Usage
 * **Download the script into /home/pi**
