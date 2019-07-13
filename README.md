@@ -9,4 +9,4 @@ This is an install script that will install the Mycroft.ai via the git installat
 * **Rasbian Buster**
   <br>Fresh install of Raspbian Buster
 * **Audio input and output devices compatible with Mycroft.ai**
-  <br>Tested with: PlayStation Eye, Blue Snowball, Google AIY v1, Seeed Studio Mic Array 2.0, Matrix Voice
+  <br>This script is built to support the Respeaker Mic Array v2.0 USB device but may work with other devices
