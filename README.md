@@ -1,6 +1,6 @@
 # Install Script
 
-This is an install script that will install Mycroft via the git installation method, create the systemd script, install Pulseaudio as a system wide service and optionally install Spotifyd (arm version), the Finished Booting skill and the Respeaker Mic Array v2.0 Pixel ring skill.
+This is an install script that will install Mycroft via the git installation method, create the systemd script, install Pulseaudio as a system wide service and optionally install Spotifyd (arm version), the Finished Booting skill and the Respeaker Mic Array v2.0 Pixel Ring skill.
 
 ## Usage
 * **Download the script into /home/pi**
