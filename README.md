@@ -9,6 +9,7 @@ This is an install script that will install the Mycroft.ai via the git installat
   <br>```chmod +x mycroft_install.sh```
 * **Run as pi user**
   <br>```./mycroft_install.sh```
+* **Follow the interactive install**
 
 ## Requirements
 
