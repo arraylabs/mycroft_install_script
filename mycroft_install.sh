@@ -110,8 +110,8 @@ while true; do
       fi
 
       echo "[global]" | sudo tee -a /etc/spotifyd.conf > /dev/null
-      echo "username = " $username | sudo tee -a /etc/spotifyd.conf > /dev/null
-      echo "password = " $password | sudo tee -a /etc/spotifyd.conf > /dev/null
+      echo "username = "$username | sudo tee -a /etc/spotifyd.conf > /dev/null
+      echo "password = "$password | sudo tee -a /etc/spotifyd.conf > /dev/null
       echo "mixer = PCM" | sudo tee -a /etc/spotifyd.conf > /dev/null
       echo "volume-control = alsa # or alsa_linear, or softvol" | sudo tee -a /etc/spotifyd.conf > /dev/null
       echo "device_name = mycroft # Cannot contain spaces" | sudo tee -a /etc/spotifyd.conf > /dev/null
