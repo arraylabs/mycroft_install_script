@@ -73,6 +73,11 @@ sudo usermod -aG pulse-access pi
 sudo usermod -aG pulse root
 sudo usermod -aG pulse-access root
 
+sudo sed -i \
+                    -e "s/aplay -Dhw:0,0 %1/aplay -Dplughw:ArrayUAC10,0 %1/" \
+                    -e "s/mpg123 -a hw:0,0 %1/mpg123 -a plughw:ArrayUAC10,0 %1/" \
+                    /etc/mycroft/mycroft.conf
+
 echo
 echo 'Pulseaudio installation complete'
 echo
